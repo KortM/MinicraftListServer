@@ -122,7 +122,6 @@ body{
 }
 .server-wrap{
     display: block;
-    border: 1px solid #000;
     min-width: 220px;
     max-width: 420px;
     max-height: 65px;;
@@ -132,4 +131,40 @@ body{
 .server-wrap img{
     width: 100%;
     height: 100%;
+}
+.server-address{
+    display: flex;
+    min-width: 150px;
+    max-width: 150px;
+    min-height: 65px;
+    text-align: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 5px;
+}
+.ip{
+    display: inline-flex;
+    color: #fff;
+    font-weight: bold;
+    background-color: #252526;
+    text-align: center;
+    padding: 25px;
+}
+.server-status{
+    display: flex;
+    min-width: 150px;
+    max-width: 150px;
+    min-height: 65px;
+    text-align: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 5px;
+}
+.status{
+    display: inline-flex;
+    color: #fff;
+    font-weight: bold;
+    background-color: #252526;
+    text-align: center;
+    padding: 25px;
 }
