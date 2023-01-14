@@ -5,10 +5,59 @@
     <div class="nav-panel">
         <div class="panel-controls">
             <ul>
-                <li><button>Добавить сервер</button></li>
-                <li><button>Фильтр</button></li>
+                <li><button class = "server-add">Добавить сервер</button></li>
+                <li><button class="filter">Фильтр</button></li>
+                <li>
+                    <div class="panel-search">
+                        <input type="text" name="search">
+                        <button type="submit">Найти</button>
+                    </div>
+                </li>
             </ul>
         </div>
+    </div>
+    <div class = "servers-table">
+        <table>
+            <tr>
+                <th>#</th>
+                <th>Сервер</th>
+                <th>IP адрес</th>
+                <th>Версия</th>
+                <th>Статус</th>
+                <th>Нравится</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>
+                    <div class = "server-wrap">
+                        <div class = "server-logo">
+                            <img src="../static/img/9397334806931.gif">
+                        </div>
+                    </div>
+                </td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+        </table>
+        
     </div>
 </div>
 {{end}}
